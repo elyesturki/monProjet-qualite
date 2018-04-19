@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-sagem';
+  additionner (a: number, b: number) {
+    return a + b;
+  }
 }
